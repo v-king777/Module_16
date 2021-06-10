@@ -37,8 +37,8 @@ namespace Practices.Tests
         [Test]
         public void DivisionMustThrowDivideByZeroException()
         {
-            var calculator = new Calculator();
-            Assert.Throws<DivideByZeroException>(() => calculator.Division(10, 0));
+            var calc = new Calculator();
+            Assert.Throws<DivideByZeroException>(() => calc.Division(10, 0));
         }
     }
 }
